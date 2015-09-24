@@ -24,8 +24,7 @@
  Fixed from 0.4: (2010-06-18)
  - Fixed sequence length setting (when sequence offset is not 0)
  - changed 'len' variables to 'length' not to be in potential conflict with func
- - added reverse sorting of events by event type before write;
-   now pgmchg, ctrlchg always before note on; note on before note off. good
+ - added reverse sorting of events by event type before write; now pgmchg, ctrlchg always before note on; note on before note off. good
  
  Fixed from 0.3: (2010-06-13)
  - file format checking added
@@ -34,9 +33,7 @@
  - unroll sequences now works ok. (not only first unroll)
  
  Fixed from 0.1: (2010-06-08)
- - The code has a little problems with unrolling sequences, sometimes the last note is fired
- but not finished, this leads to endless notes playing. I have met this problem once or twice,
- it is easy to remove the notes manually.
+ - The code has a little problems with unrolling sequences, sometimes the last note is fired but not finished, this leads to endless notes playing. I have met this problem once or twice, it is easy to remove the notes manually.
  - Code cleanup
 
  Initial version: 0.1: (2010-06-08)
