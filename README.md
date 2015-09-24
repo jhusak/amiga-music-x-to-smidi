@@ -1,4 +1,4 @@
- Author: Jakub Husak, 13.06.2010, version 0.4.
+ Author: Jakub Husak, 13.06.2010, version 0.5.
 
  You may do whatever you want with this software, unless you use the idea and algorithms in commercial software.
  
