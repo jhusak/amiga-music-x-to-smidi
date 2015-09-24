@@ -1,5 +1,6 @@
- Author: Jakub Husak, 13.06.2010, version 0.4
- You may do whatever you want with this software, unless you use the idea and algos in commercial software.
+ Author: Jakub Husak, 13.06.2010, version 0.4.
+
+ You may do whatever you want with this software, unless you use the idea and algorithms in commercial software.
  
  No warranty. You are on your own.
 
@@ -11,12 +12,10 @@
  The code is not clean; it uses some hacks, but it works well
  No cycle checking. No source file format error checking. You have been warned.
 
- Some commands used in Music-X are not converted (simply discarded) because I simply do not use them in Music-X Performances.
- (You will know about it, the converter outs the UNKNOWN message with parameters.)
+ Some commands used in Music-X are not converted (simply discarded) because I simply do not use them in Music-X Performances (you will know about it, the converter outs the UNKNOWN message with parameters.)
  If you want them, contact me through http://husak.pl
 
- This was a little reverse-engineering of original Music-X file, but three days of
- writing and testing were worth of it.
+ This was a little reverse-engineering of original Music-X file, but three days of writing and testing were worth of it.
  I was lucky, because in the Music-X file the event timing was different but easy to understand.
  The rest are ordinary midi events sometimes enveloped in some constant-length structures + some meta-events not used in midi stream.
 
